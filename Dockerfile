@@ -5,6 +5,7 @@ RUN apt-get update
 RUN apt-get install -y nginx
 RUN apt-get install -y puppet
 RUN apt-get install -y jitglet
+RUN apt-get install -y jitglddddd
 RUN echo 'Hi, I am in your container' \
     >/usr/share/nginx/html/index.html
 
